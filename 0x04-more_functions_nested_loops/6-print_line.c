@@ -8,12 +8,12 @@ void print_line(int n)
 {
 	if (n <= 0)
 	{
-		_putchar then print ('\n');
+		_putchar('\n');
 	} else
 	{
 		int i;
 
-		for (i = 1; i++)
+		for (i = 1; i <= n; i++)
 		{
 			_putchar('_');
 		}
@@ -21,4 +21,3 @@ void print_line(int n)
 	}
 
 }
-
