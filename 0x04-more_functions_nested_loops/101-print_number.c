@@ -3,11 +3,13 @@
 /**
  * print_number - prints an integer
  * @n: integer to be printed
- */
+*/
 
-print_number 
+void print_number(int n)
+
 {
-	
+	unsigned int n1;
+
 	if (n < 0)
 	{
 		n1 = -n;
@@ -23,5 +25,5 @@ print_number
 	}
 
 	_putchar((n1 % 10) + '0');
-
 }
+
