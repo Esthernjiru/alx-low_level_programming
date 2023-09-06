@@ -2,7 +2,7 @@ include <stdio.h>
 #include "main.h"
 
 /**
- * main -write a function that prints all arguments it receives
+ * main - write a function that prints all arguments it receives
  * @argc: number of arguments
  * @argv: array of arguments
  *
@@ -20,4 +20,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
